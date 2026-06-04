@@ -8,7 +8,7 @@ def BACKUP_MERGE(files, output):
         registros += ler_registros_do_backup(arquivo)
     
     #Só descomente a linha abaixo assim que a função estiver pronta
-    #registros += dump_em_ordem_da_memoria()
+    #registros += dump_em_ordem_na_memoria()
     ordenados = MERGE_SORT(registros)
     consolidados = resolver_duplicatas(ordenados)
     salvar_json(output, consolidados)
@@ -30,7 +30,12 @@ def salvar_json(output, lista):
     with open(output, 'w') as file:
         for i in lista:
             json.dump(i, file)
+            file.write('\n')
+
+def resolver_duplicatas(lista):
+    lista_resolvida = list({ each["key"] : each for each in lista}.values())
+    return lista_resolvida
 
 #TO DO: fazer esta função
-def dump_em_ordem_na_memória():
+def dump_em_ordem_na_memoria():
     print("Isso é um placeholder")
