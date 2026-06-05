@@ -1,7 +1,7 @@
-#To do: Importar a classe do nó assim que este estiver pronto
+from ..core.node import Node, make_nil, BLACK, RED
 
-def RANGE(no, min, max, resultado):
-    if no == None:
+def RANGE(no: Node, min, max, resultado):
+    if no.isBlack() and no.value == None and no.key == None:
         return
     
     if no.key > min:
