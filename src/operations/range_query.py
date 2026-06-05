@@ -1,7 +1,7 @@
 from ..core.node import Node, make_nil, BLACK, RED
 
 def RANGE(no: Node, min, max, resultado):
-    if no.isBlack() and no.value == None and no.key == None:
+    if no.is_black() and no.value == None and no.key == None:
         return
     
     if no.key > min:
