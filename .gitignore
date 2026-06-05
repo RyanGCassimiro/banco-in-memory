@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+.env/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Saídas geradas pela engine (não são gabarito)
+data/saida_*.json
+data/backup_consolidado.json
+data/backup_dia_*.json
+
+# Arquivo de estresse (gerado pelo script, grande demais para o repo)
+data/input_estresse.json
+data/output_esperado_estresse.json
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
