@@ -18,8 +18,7 @@ for i in range(5000):
     operations.append({ "op": "RANGE", "min": min(a,b), "max": max(a,b) })
 
 #Escreve as operações criadas no arquivo JSON
-with open(r'../data/input_estresse.json', 'w') as file:
-    for operation in operations:
-        dump(operation, file)
+with open(r'../data/input_estresse.json', 'w', encoding="utf-8") as file:
+    dump({"operations":operations}, file, ensure_ascii=False, indent=2)
 
 print("Inputs criados com sucesso! Bom teste! :)")

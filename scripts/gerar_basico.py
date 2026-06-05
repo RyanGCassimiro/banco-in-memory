@@ -1,7 +1,7 @@
 from json import dump
 from random import randint
 
-print("Gerando o input_avancado.json...")
+print("Gerando o input_basico.json...")
 operations = []
 
 for i in range(50):
@@ -21,9 +21,7 @@ for i in range(20):
 #TO DO: criar os arquivos de backup para teste 
 operations.append({"op": "BACKUP_MERGE", "files": ["data/backup_dia_1.json", "data/backup_dia_2.json"], "output": "data/backup_consolidado.json"})
 
-with open(r'../data/input_basico.json', 'w') as file:
-    for operation in operations:
-        dump(operation, file)
-        file.write('\n')
+with open(r'../data/input_basico.json', 'w', encoding="utf-8") as file:
+    dump({"operations":operations}, file, ensure_ascii=False, indent=2)
 
 print("Inputs criados com sucesso! Bom teste! :)")

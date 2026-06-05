@@ -30,9 +30,7 @@ for i in range(10):
 #TO DO: Criar aquivos de backup para teste
 operations.append({"op": "BACKUP_MERGE", "files": ["data/backup_dia_1.json", "data/backup_dia_2.json"], "output": "data/backup_consolidado.json"})
 
-with open(r'../data/input_avancado.json', 'w') as file:
-    for operation in operations:
-        dump(operation, file)
-        file.write('\n')
+with open(r'../data/input_avancado.json', 'w', encoding="utf-8") as file:
+    dump({"operations": operations}, file, ensure_ascii=False, indent=2)
 
 print("Inputs criados com sucesso! Bom teste! :)")
