@@ -2,13 +2,13 @@ import json
 from ..algorithms.merge_sort import MERGE_SORT
 from ..core.database import Database
 
-def BACKUP_MERGE(files, output, db: Database):
+def BACKUP_MERGE(files, output, memory_records):
     registros = []
     
     for arquivo in files:
         registros += ler_registros_do_backup(arquivo)
     
-    registros += db.dump_inorder()
+    registros += memory_records
     ordenados = MERGE_SORT(registros)
     consolidados = resolver_duplicatas(ordenados)
     salvar_json(output, consolidados)
