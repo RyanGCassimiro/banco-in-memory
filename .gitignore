@@ -17,6 +17,7 @@ env/
 htmlcov/
 
 # Saídas geradas pela engine (não são gabarito)
+data/saida_estresse.json
 data/saida_*.json
 data/backup_consolidado.json
 data/backup_dia_*.json

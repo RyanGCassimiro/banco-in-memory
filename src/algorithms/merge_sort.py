@@ -1,37 +1,38 @@
-def MERGE_SORT(lista):
+def merge_sort(lista):
     if len(lista) <= 1:
         return lista
-    
-    #Determina onde fica o meio da lista
+
+    # Determina onde fica o meio da lista
     meio = len(lista) // 2
-    
-    #Divide a lista em duas, e usa o merge sort recursivamente para organizar
-    #cada metade
-    esquerda = MERGE_SORT(lista[0:meio])
-    direita = MERGE_SORT(lista[meio:])
 
-    #Reúne e retorna as duas metades organizadas no final
-    return MERGE(esquerda, direita)
+    # Divide a lista em duas e usa o merge sort recursivamente para organizar cada metade
+    esquerda = merge_sort(lista[0:meio])
+    direita = merge_sort(lista[meio:])
 
-def MERGE(esquerda, direita):
-    #Armazenará o resultado final da organização
+    # Reúne e retorna as duas metades organizadas
+    return _merge(esquerda, direita)
+
+
+def _merge(esquerda, direita):
+    # Armazenará o resultado final da organização
     resultado = []
-    #Índices denotando esquerda e direita, respectivamente
+
+    # Índices denotando esquerda e direita, respectivamente
     i = j = 0
 
-    #Organiza as duas lista
+    # Organiza as duas listas
+    # <= em vez de < garante estabilidade: chaves iguais mantêm ordem de chegada
     while i < len(esquerda) and j < len(direita):
-        if esquerda[i]["key"] < direita[j]["key"]:
+        if esquerda[i]["key"] <= direita[j]["key"]:
             resultado.append(esquerda[i])
             i += 1
         else:
             resultado.append(direita[j])
             j += 1
 
-    #Reúne as listas em uma só
+    # Reúne as listas em uma só
     resultado.extend(esquerda[i:])
     resultado.extend(direita[j:])
 
-    #retorna a lista organizada
+    # Retorna a lista organizada
     return resultado
-
