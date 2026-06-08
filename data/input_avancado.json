@@ -1,0 +1,252 @@
+{
+  "operations": [
+    {
+      "op": "INSERT",
+      "key": 0,
+      "value": "0"
+    },
+    {
+      "op": "INSERT",
+      "key": 1,
+      "value": "1"
+    },
+    {
+      "op": "INSERT",
+      "key": 2,
+      "value": "2"
+    },
+    {
+      "op": "INSERT",
+      "key": 3,
+      "value": "3"
+    },
+    {
+      "op": "INSERT",
+      "key": 4,
+      "value": "4"
+    },
+    {
+      "op": "INSERT",
+      "key": 5,
+      "value": "5"
+    },
+    {
+      "op": "INSERT",
+      "key": 6,
+      "value": "6"
+    },
+    {
+      "op": "INSERT",
+      "key": 7,
+      "value": "7"
+    },
+    {
+      "op": "INSERT",
+      "key": 8,
+      "value": "8"
+    },
+    {
+      "op": "INSERT",
+      "key": 9,
+      "value": "9"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "DELETE",
+      "key": 17
+    },
+    {
+      "op": "DELETE",
+      "key": 18
+    },
+    {
+      "op": "DELETE",
+      "key": 19
+    },
+    {
+      "op": "DELETE",
+      "key": 20
+    },
+    {
+      "op": "DELETE",
+      "key": 21
+    },
+    {
+      "op": "DELETE",
+      "key": 22
+    },
+    {
+      "op": "DELETE",
+      "key": 23
+    },
+    {
+      "op": "DELETE",
+      "key": 24
+    },
+    {
+      "op": "DELETE",
+      "key": 25
+    },
+    {
+      "op": "DELETE",
+      "key": 26
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": null,
+      "max": null
+    },
+    {
+      "op": "RANGE",
+      "min": 9,
+      "max": 2
+    },
+    {
+      "op": "RANGE",
+      "min": 9,
+      "max": 2
+    },
+    {
+      "op": "RANGE",
+      "min": 10,
+      "max": 5
+    },
+    {
+      "op": "RANGE",
+      "min": 8,
+      "max": 1
+    },
+    {
+      "op": "RANGE",
+      "min": 10,
+      "max": 6
+    },
+    {
+      "op": "RANGE",
+      "min": 9,
+      "max": 2
+    },
+    {
+      "op": "RANGE",
+      "min": 2,
+      "max": 1
+    },
+    {
+      "op": "RANGE",
+      "min": 6,
+      "max": 1
+    },
+    {
+      "op": "RANGE",
+      "min": 9,
+      "max": 3
+    },
+    {
+      "op": "RANGE",
+      "min": 9,
+      "max": 7
+    },
+    {
+      "op": "BACKUP_MERGE",
+      "files": [
+        "data/backup_dia_1.json",
+        "data/backup_dia_2.json"
+      ],
+      "output": "data/backup_consolidado.json"
+    }
+  ]
+}

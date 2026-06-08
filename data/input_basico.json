@@ -1,0 +1,432 @@
+{
+  "operations": [
+    {
+      "op": "INSERT",
+      "key": 0,
+      "value": "0"
+    },
+    {
+      "op": "INSERT",
+      "key": 1,
+      "value": "1"
+    },
+    {
+      "op": "INSERT",
+      "key": 2,
+      "value": "2"
+    },
+    {
+      "op": "INSERT",
+      "key": 3,
+      "value": "3"
+    },
+    {
+      "op": "INSERT",
+      "key": 4,
+      "value": "4"
+    },
+    {
+      "op": "INSERT",
+      "key": 5,
+      "value": "5"
+    },
+    {
+      "op": "INSERT",
+      "key": 6,
+      "value": "6"
+    },
+    {
+      "op": "INSERT",
+      "key": 7,
+      "value": "7"
+    },
+    {
+      "op": "INSERT",
+      "key": 8,
+      "value": "8"
+    },
+    {
+      "op": "INSERT",
+      "key": 9,
+      "value": "9"
+    },
+    {
+      "op": "INSERT",
+      "key": 10,
+      "value": "10"
+    },
+    {
+      "op": "INSERT",
+      "key": 11,
+      "value": "11"
+    },
+    {
+      "op": "INSERT",
+      "key": 12,
+      "value": "12"
+    },
+    {
+      "op": "INSERT",
+      "key": 13,
+      "value": "13"
+    },
+    {
+      "op": "INSERT",
+      "key": 14,
+      "value": "14"
+    },
+    {
+      "op": "INSERT",
+      "key": 15,
+      "value": "15"
+    },
+    {
+      "op": "INSERT",
+      "key": 16,
+      "value": "16"
+    },
+    {
+      "op": "INSERT",
+      "key": 17,
+      "value": "17"
+    },
+    {
+      "op": "INSERT",
+      "key": 18,
+      "value": "18"
+    },
+    {
+      "op": "INSERT",
+      "key": 19,
+      "value": "19"
+    },
+    {
+      "op": "INSERT",
+      "key": 20,
+      "value": "20"
+    },
+    {
+      "op": "INSERT",
+      "key": 21,
+      "value": "21"
+    },
+    {
+      "op": "INSERT",
+      "key": 22,
+      "value": "22"
+    },
+    {
+      "op": "INSERT",
+      "key": 23,
+      "value": "23"
+    },
+    {
+      "op": "INSERT",
+      "key": 24,
+      "value": "24"
+    },
+    {
+      "op": "INSERT",
+      "key": 25,
+      "value": "25"
+    },
+    {
+      "op": "INSERT",
+      "key": 26,
+      "value": "26"
+    },
+    {
+      "op": "INSERT",
+      "key": 27,
+      "value": "27"
+    },
+    {
+      "op": "INSERT",
+      "key": 28,
+      "value": "28"
+    },
+    {
+      "op": "INSERT",
+      "key": 29,
+      "value": "29"
+    },
+    {
+      "op": "INSERT",
+      "key": 30,
+      "value": "30"
+    },
+    {
+      "op": "INSERT",
+      "key": 31,
+      "value": "31"
+    },
+    {
+      "op": "INSERT",
+      "key": 32,
+      "value": "32"
+    },
+    {
+      "op": "INSERT",
+      "key": 33,
+      "value": "33"
+    },
+    {
+      "op": "INSERT",
+      "key": 34,
+      "value": "34"
+    },
+    {
+      "op": "INSERT",
+      "key": 35,
+      "value": "35"
+    },
+    {
+      "op": "INSERT",
+      "key": 36,
+      "value": "36"
+    },
+    {
+      "op": "INSERT",
+      "key": 37,
+      "value": "37"
+    },
+    {
+      "op": "INSERT",
+      "key": 38,
+      "value": "38"
+    },
+    {
+      "op": "INSERT",
+      "key": 39,
+      "value": "39"
+    },
+    {
+      "op": "INSERT",
+      "key": 40,
+      "value": "40"
+    },
+    {
+      "op": "INSERT",
+      "key": 41,
+      "value": "41"
+    },
+    {
+      "op": "INSERT",
+      "key": 42,
+      "value": "42"
+    },
+    {
+      "op": "INSERT",
+      "key": 43,
+      "value": "43"
+    },
+    {
+      "op": "INSERT",
+      "key": 44,
+      "value": "44"
+    },
+    {
+      "op": "INSERT",
+      "key": 45,
+      "value": "45"
+    },
+    {
+      "op": "INSERT",
+      "key": 46,
+      "value": "46"
+    },
+    {
+      "op": "INSERT",
+      "key": 47,
+      "value": "47"
+    },
+    {
+      "op": "INSERT",
+      "key": 48,
+      "value": "48"
+    },
+    {
+      "op": "INSERT",
+      "key": 49,
+      "value": "49"
+    },
+    {
+      "op": "SEARCH",
+      "key": 0
+    },
+    {
+      "op": "SEARCH",
+      "key": 1
+    },
+    {
+      "op": "SEARCH",
+      "key": 2
+    },
+    {
+      "op": "SEARCH",
+      "key": 3
+    },
+    {
+      "op": "SEARCH",
+      "key": 4
+    },
+    {
+      "op": "SEARCH",
+      "key": 5
+    },
+    {
+      "op": "SEARCH",
+      "key": 6
+    },
+    {
+      "op": "SEARCH",
+      "key": 7
+    },
+    {
+      "op": "SEARCH",
+      "key": 8
+    },
+    {
+      "op": "SEARCH",
+      "key": 9
+    },
+    {
+      "op": "RANGE",
+      "min": 36,
+      "max": 41
+    },
+    {
+      "op": "RANGE",
+      "min": 3,
+      "max": 48
+    },
+    {
+      "op": "RANGE",
+      "min": 7,
+      "max": 50
+    },
+    {
+      "op": "RANGE",
+      "min": 23,
+      "max": 25
+    },
+    {
+      "op": "RANGE",
+      "min": 39,
+      "max": 47
+    },
+    {
+      "op": "RANGE",
+      "min": 17,
+      "max": 23
+    },
+    {
+      "op": "RANGE",
+      "min": 37,
+      "max": 46
+    },
+    {
+      "op": "RANGE",
+      "min": 15,
+      "max": 18
+    },
+    {
+      "op": "RANGE",
+      "min": 17,
+      "max": 23
+    },
+    {
+      "op": "RANGE",
+      "min": 12,
+      "max": 49
+    },
+    {
+      "op": "DELETE",
+      "key": 0
+    },
+    {
+      "op": "DELETE",
+      "key": 1
+    },
+    {
+      "op": "DELETE",
+      "key": 2
+    },
+    {
+      "op": "DELETE",
+      "key": 3
+    },
+    {
+      "op": "DELETE",
+      "key": 4
+    },
+    {
+      "op": "DELETE",
+      "key": 5
+    },
+    {
+      "op": "DELETE",
+      "key": 6
+    },
+    {
+      "op": "DELETE",
+      "key": 7
+    },
+    {
+      "op": "DELETE",
+      "key": 8
+    },
+    {
+      "op": "DELETE",
+      "key": 9
+    },
+    {
+      "op": "DELETE",
+      "key": 10
+    },
+    {
+      "op": "DELETE",
+      "key": 11
+    },
+    {
+      "op": "DELETE",
+      "key": 12
+    },
+    {
+      "op": "DELETE",
+      "key": 13
+    },
+    {
+      "op": "DELETE",
+      "key": 14
+    },
+    {
+      "op": "DELETE",
+      "key": 15
+    },
+    {
+      "op": "DELETE",
+      "key": 16
+    },
+    {
+      "op": "DELETE",
+      "key": 17
+    },
+    {
+      "op": "DELETE",
+      "key": 18
+    },
+    {
+      "op": "DELETE",
+      "key": 19
+    },
+    {
+      "op": "BACKUP_MERGE",
+      "files": [
+        "data/backup_dia_1.json",
+        "data/backup_dia_2.json"
+      ],
+      "output": "data/backup_consolidado.json"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import json
-from ..algorithms.merge_sort import MERGE_SORT
+from ..algorithms.merge_sort import merge_sort as MERGE_SORT
 from ..core.database import Database
 
 def BACKUP_MERGE(files, output, memory_records):
