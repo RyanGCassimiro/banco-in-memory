@@ -19,7 +19,7 @@ def BACKUP_MERGE(files, output, memory_records):
 #Função auxiliar para o BACKUP_MERGE
 def ler_registros_do_backup(arquivo):
     registros_backup = []
-    with open(arquivo, 'r') as f:
+    with open(arquivo, 'r', encoding="utf-8") as f:
         for linha in f:
             registros_backup.append(json.loads(linha))
 

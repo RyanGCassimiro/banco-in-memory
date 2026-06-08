@@ -19,7 +19,7 @@ for i in range(20):
     operations.append({ "op": "DELETE", "key": i})
 
 #TO DO: criar os arquivos de backup para teste 
-operations.append({"op": "BACKUP_MERGE", "files": ["data/backup_dia_1.json", "data/backup_dia_2.json"], "output": "data/backup_consolidado.json"})
+operations.append({"op": "BACKUP_MERGE", "files": ["data/backups_basico/backup_dia_1.json", "data/backups_basico/backup_dia_2.json"], "output": "data/backups_basico/backup_consolidado.json"})
 
 with open(r'../data/input_basico.json', 'w', encoding="utf-8") as file:
     dump({"operations":operations}, file, ensure_ascii=False, indent=2)
